@@ -4,7 +4,7 @@ def calculate_day1_solution(inp):
     """
     The idea here is to exploit the fact that if a + b = 2020, then b = 2020 - a
     So we first find the differences in one pass, and then make another pass to 
-    find the element that equals the difference. Finally, we return the element
+    find the element that equals the difference. Finally, we return the product of the element
     and the difference
     """
     differences = [2020 - elem for elem in inp]
